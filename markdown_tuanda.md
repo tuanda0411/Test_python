@@ -53,3 +53,21 @@ Dynamic Memory Allocation
 - Các biến môi trường lưu trữ dữ liệu về một môi trường của hệ thống, để nó biết nơi cần tìm thông tin nhất định. Biến PATH là một trong những biến môi trường được biết đến nhiều nhất, vì nó tồn tại trên các máy Windows, Mac, Linux và thực hiện công việc trực tiếp với người dùng. Hình thức thực tế của PATH chỉ là một chuỗi văn bản chứa danh sách các đường dẫn thư mục mà hệ thống sẽ tìm kiếm mỗi khi bạn yêu cầu một chương trình
 # Q9 
 - là một đối tượng Python với các thuộc tính được đặt tên tùy ý mà bạn có thể liên kết và tham chiếu. ... Đơn giản, một mô-đun là một tệp bao gồm code Python. Một mô-đun có thể xác định các hàm, lớp và biến. Một mô-đun cũng có thể bao gồm mã chạy được
+
+# Q10 
+- một biến được khai báo bên ngoài hàm hoặc trong phạm vi toàn cục được gọi là biến toàn cục hay biến global. Biến toàn cục có thể được truy cập từ bên trong hoặc bên ngoài hàm.
+- Biến được khai báo bên trong một hàm hoặc trong phạm vi cục bộ được gọi là biến cục bộ hay biến local
+x = "Bien toàn cục"
+def vidu():
+ y = "Biến cục bộ"
+vidu()
+print(x)
+print(y)
+
+# Q11 What is __init__?
+- Tất cả các lớp đều có một hàm gọi là __init __(), nó luôn luôn được thực hiện khi lớp đang được khởi tạo.
+- Sử dụng hàm __init __() để gán giá trị cho các thuộc tính của đối tượng hoặc các hoạt động khác cần thiết khi đối tượng đang được khỏi tạo
+- Các đối tượng cũng có thể chứa các phương thức. Phương thức trong đối tượng là các hàm thuộc về đối tượng
+
+# Q12 What is self in Python?
+- dùng để thể hiện lại chính class đang chứa nó, và dựa vào nó thì chúng ta có thể truy cập vào các phần tử đang có trong class hiện tại.
